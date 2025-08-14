@@ -74,7 +74,7 @@ docker run -d --name=netdata -p 19999:19999 netdata/netdata
 
 ## 🌐 Accessing the Dashboard
 - **Local machine:** http://localhost:19999  
-- **Remote server:** http://<server-ip>:19999
+- **Remote server:** http://192.168.246.251:19999
 
 If the firewall blocks the port:
 ```bash
