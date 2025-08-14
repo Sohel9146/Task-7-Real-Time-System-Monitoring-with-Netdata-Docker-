@@ -182,10 +182,11 @@ Install **Docker**, then run:
 docker run -d --name=netdata -p 19999:19999 netdata/netdata
 Access the dashboard via the VM’s IP and port.
 
-**7. How does Netdata alerting work?**  
+7. How does Netdata alerting work?  
 Netdata has **built-in health checks** with **predefined thresholds**; when a **metric crosses the limit**, it **triggers an alarm** and can **notify via email, Slack, Discord**, or other supported channels.
 
-**8. What is a dashboard in this context?**  
+8. What is a dashboard in this context?  
 A **dashboard** is Netdata’s **web-based visual interface** that displays **live metrics** in **interactive charts**, allowing you to **drill down** from **system overviews** to **individual processes**.
+
 
 
