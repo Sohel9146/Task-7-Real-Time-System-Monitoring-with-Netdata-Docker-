@@ -21,7 +21,7 @@ We explore CPU, memory, disk, network, Docker containers, alerts, and logs, then
 
 ## 📂 Suggested Repo Structure
 ```
-task7-netdata/
+Monitor System Resources Using Netdata/
 ├─ README.md
 ├─ scripts/
 │  └─ run_netdata.sh
