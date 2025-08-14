@@ -151,42 +151,13 @@ You can check the full project here:
 In addition, I have implemented multiple projects using Prometheus and Grafana for system monitoring, container tracking, and real-time alerting.
 
 ---
+## ✍️ Author
 
-## 💬 Interview Q&A
+**Shaikh Sohel**   
+🔗 [GitHub Profile](https://github.com/Sohel9146)  
+📧 suhailshaikh7866@gmail.com 
 
-**1. What does Netdata monitor?**  
-Netdata monitors **real-time performance metrics** from **systems, containers, applications, and services**, including **CPU**, **memory**, **disk I/O**, **network traffic**, **running processes**, and **health alarms**.
 
-**2. How do you view real-time metrics?**  
-Access Netdata’s **interactive dashboard** in a web browser at:  
-- **Local:** `http://localhost:19999`  
-- **Remote:** `http://<server-ip>:19999`
-
-**3. What is a collector?**  
-A **collector** is a **plugin/module** in Netdata that **gathers metrics** from a specific source (e.g., **OS**, **Docker**, **Nginx**, **MySQL**) and feeds them to the **dashboard**.
-
-**4. How is Netdata different from Prometheus?**  
-- **Netdata**: **Plug-and-play**, **instant per-second dashboards**, **built-in alerting**, **no complex setup**.  
-- **Prometheus**: **Metrics storage and querying engine**, requires **exporters** for collection and **Grafana** for visualization.
-
-**5. What are some performance KPIs to watch?**  
-- **CPU utilization per core**  
-- **Memory usage** (used, cache, swap)  
-- **Disk I/O throughput & latency**  
-- **Network throughput & error rates**  
-- **Container CPU/memory usage & throttling**
-
-**6. How to deploy Netdata on a VM?**  
-Install **Docker**, then run:  
-```bash
-docker run -d --name=netdata -p 19999:19999 netdata/netdata
-Access the dashboard via the VM’s IP and port.
-
-7. How does Netdata alerting work?  
-Netdata has **built-in health checks** with **predefined thresholds**; when a **metric crosses the limit**, it **triggers an alarm** and can **notify via email, Slack, Discord**, or other supported channels.
-
-8. What is a dashboard in this context?  
-A **dashboard** is Netdata’s **web-based visual interface** that displays **live metrics** in **interactive charts**, allowing you to **drill down** from **system overviews** to **individual processes**.
 
 
 
