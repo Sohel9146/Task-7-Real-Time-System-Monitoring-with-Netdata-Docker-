@@ -65,7 +65,7 @@ sudo usermod -aG docker $USER
 
 ## 🚀 Running Netdata
 
-### Minimal Run Command (matches PDF instructions)
+### Minimal Run Command
 ```bash
 docker run -d --name=netdata -p 19999:19999 netdata/netdata
 ```
